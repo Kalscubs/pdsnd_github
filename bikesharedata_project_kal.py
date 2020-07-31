@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
-"""  Sources used:  
-     udacity.com, 
-     https://docs.python.org/3/contents.html,
+"""  Sources used:
+     udacity.com
+     https://docs.python.org/3/contents.html
      https://www.w3schools.com/python/
      https://www.w3resource.com/python-exercises/
      https://www.geeksforgeeks.org/
@@ -321,7 +321,7 @@ def raw_data(df):
     """Displays bikeshare raw data."""
 
     # predefined prompt questions
-    raw_data_init_prompt = "\nEnter 'Y' if you like to see raw data (5 lines at a time, sorted by Start Time, Desc), " \
+    raw_data_init_prompt = "\nEnter 'Y' if you like to see raw data (5 lines at a time, sorted by Start Time, Asc), " \
                            "otherwise press enter to skip\n>> "
 
     raw_data_continue_prompt = "\nEnter 'Y' to see next 5 lines, otherwise press enter to skip\n>> "
@@ -329,8 +329,8 @@ def raw_data(df):
     # Initial question to confirm with user on whether to see raw data or not
     raw_data_user_answer = str(input(raw_data_init_prompt)).strip().upper()
     if raw_data_user_answer == 'Y':
-        # sort dataframe based on start time column, starting with most recent (desc)
-        df = df.sort_values(['Start Time'], ascending=False)
+        # sort dataframe based on start time column, starting with most farthest (Asc)
+        df = df.sort_values(['Start Time'], ascending=True)
         current_position = 0  # holds current position of record to be used to display specific records
         while True:
             for i in range(current_position, len(df.index)):
