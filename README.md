@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+July 31, 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Project
 
 ### Description
-Describe what your project is about and what it does
+This project is about performing data analysis on bike share data in three cities (Chicago, New York City, and Washington DC).
 
 ### Files used
-Include the files used
+bikesharedata_project_kal.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+udacity.com
+https://docs.python.org/3/contents.html
+https://www.w3schools.com/python/
+https://www.w3resource.com/python-exercises/
+https://www.geeksforgeeks.org/
+https://stackoverflow.com/
+https://datatofish.com/python-tutorials/
+https://pandas.pydata.org/pandas-docs/stable/reference/
