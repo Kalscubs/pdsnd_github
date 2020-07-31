@@ -2,7 +2,7 @@
 July 31, 2020
 
 ### Project Title
-Bikeshare Data Project
+Bikeshare Data Project for Udacity Programming for Data Science Nanodegree
 
 ### Description
 This project is about performing data analysis on bike share data in three cities (Chicago, New York City, and Washington DC).
