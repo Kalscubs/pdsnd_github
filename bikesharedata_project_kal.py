@@ -48,7 +48,7 @@ def validate(selection, category):
        returns Y or N, based on user confirming to information.
     """
     # static prompt
-    validation_prompt = "Please confirm Y or N >> "
+    validation_prompt = "Please confirm 'Y' or 'N' >> "
 
     while True:
         print(f"\nYou have chosen to view data for {category}: {selection} ")
