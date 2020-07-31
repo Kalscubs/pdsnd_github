@@ -178,7 +178,7 @@ def load_data(city, month, day):
     """
 
     # Load Data
-    print("\nLoading Data Based On Your Selection.....")
+    print("\nLoading Data Based On Your Selection of City(ies), Month(s), and Day(s) of the week.....")
 
     #  capture start time
     start_time = time.time()
