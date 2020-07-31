@@ -79,7 +79,7 @@ def get_filters():
     month_prompt = "\nPlease choose which month(s) from January to June (separated by comma) or 'all' you would like to see data for:\n>> "
     dow_prompt = "\nPlease choose the day(s) of the week from Sunday to Saturday (separated by commaa) or 'all' you would like to see data for:\n>> "
 
-    print("\n\n", '*' * 20, "Hello! Let's explore some US bikeshare data!", '*' * 20, "\n")
+    print("\n\n", '*' * 20, "Hello! Let's explore some US cities (Chicago, NYC, and Washington DC)bikeshare data!", '*' * 20, "\n")
     print("\n>>>>  Type 'end' at any time if you would like to exit the program. <<<<\n")
     print('=' * 80)
 
